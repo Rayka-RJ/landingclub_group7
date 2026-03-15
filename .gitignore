@@ -1,0 +1,39 @@
+# Data files (too large for git)
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large binary files)
+models/*.joblib
+models/*.pkl
+models/*.h5
+
+# Secrets
+.env
